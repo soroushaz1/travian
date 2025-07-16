@@ -1,0 +1,13 @@
+schema_version      = "1.0.0"
+id                  = "image_to_3d_face"
+version             = "1.0"
+name                = "Image to 3D Face"
+tagline             = "Convert 2D images to 3D faces using template meshes"
+maintainer          = "Soroush <soroushzendedel1@gmail.com>"
+type                = "add-on"
+blender_version_min = "3.6.1"
+license             = ["SPDX:MIT"]
+website             = "https://github.com/soroushaz1/image_to_3d_face"
+tags                = ["Face Generation", "3D Modeling", "Addon", "Blender", "Image Processing"]
+modules = ["blender_addon/__init__.py"]
+icon = "ICON"
